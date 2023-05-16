@@ -11,6 +11,7 @@ class RestaurantPage extends StatefulWidget {
 
 class _RestaurantPageState extends State<RestaurantPage> {
 
+
   final List<Widget> _menu = <Widget>[
     Card(
       clipBehavior: Clip.antiAlias,
@@ -18,7 +19,10 @@ class _RestaurantPageState extends State<RestaurantPage> {
       child: Column(
         children: [
           const ListTile(
-            title: Text('Schnitzel Wiener Art\n10€\n'),
+            title: Text(
+              'Schnitzel Wiener Art\n10€\n',
+              style: TextStyle(fontSize: 20)
+            ),
             subtitle: Text(
               'Pommes oder Spätzle als Beilage'
             ),
@@ -29,19 +33,24 @@ class _RestaurantPageState extends State<RestaurantPage> {
             children: [
               ElevatedButton(
                 child: const Text('Zur Bestellung hinzufügen'),
-                onPressed: () {},
+                onPressed: () {
+                },
               )
             ],
-          ),
-          const Divider(
-            height: 20,
-            thickness: 2,
-            color: Color(0xff5c4d4d),
-            indent: 2,
-            endIndent: 2,
-          ),
+          )
+        ],
+      ),
+    ),
+    Card(
+      clipBehavior: Clip.antiAlias,
+      elevation: 8,
+      child: Column(
+        children: [
           const ListTile(
-            title: Text('Fanta\n3,50€\n'),
+            title: Text(
+              'Fanta\n3,50€\n',
+              style: TextStyle(fontSize: 20),
+            ),
             subtitle: Text(
                 'Erfrischungsgetränk'
             ),

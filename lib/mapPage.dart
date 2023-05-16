@@ -56,6 +56,16 @@ class _MapPageState extends State<MapPage> {
             Marker(
               width: 80.0,
               height: 80.0,
+              point: LatLng(49.133592481774116, 9.228640120723618),
+              builder: (ctx) => const Icon(
+                Icons.person_pin_circle,
+                color: Colors.blue,
+                size: 50,
+              )
+            ),
+            Marker(
+              width: 80.0,
+              height: 80.0,
               point: LatLng(49.132980588602585, 9.263301254971836),
               builder: (ctx) => const Icon(
                 Icons.location_on,
