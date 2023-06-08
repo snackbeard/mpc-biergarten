@@ -112,7 +112,7 @@ class _SearchPageState extends State<SearchPage> {
                         padding: const EdgeInsets.all(20.0),
                         margin: const EdgeInsets.only(left: 10.0),
                         child: const Text(
-                          "Da schaut der Peter dumm!",
+                          "Kommt lieber zu mir",
                           style: TextStyle(fontSize: 20),
                         ),
                       ),

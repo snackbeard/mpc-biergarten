@@ -24,10 +24,10 @@ class _RestaurantPageState extends State<RestaurantPage> {
               style: TextStyle(fontSize: 20)
             ),
             subtitle: Text(
-              'Pommes oder Spätzle als Beilage'
+              'Pommes oder Spätzle als Beilage\n'
             ),
           ),
-          Image.asset('assets/placeholder-image.png'),
+          Image.asset('assets/schnitzel.png'),
           ButtonBar(
             alignment: MainAxisAlignment.start,
             children: [
@@ -52,10 +52,10 @@ class _RestaurantPageState extends State<RestaurantPage> {
               style: TextStyle(fontSize: 20),
             ),
             subtitle: Text(
-                'Erfrischungsgetränk'
+                'Erfrischungsgetränk\n'
             ),
           ),
-          Image.asset('assets/placeholder-image.png'),
+          Image.asset('assets/fanta.png'),
           ButtonBar(
             alignment: MainAxisAlignment.start,
             children: [
